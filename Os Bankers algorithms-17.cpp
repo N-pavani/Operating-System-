@@ -86,3 +86,41 @@ for (j = 0; j < c; j++)
 
   return 0;
 }
+
+
+
+
+
+ooutput:
+Enter the number of process and resources5
+4
+enter allocation of resource of all process 5x4 matrix
+0 0 1 2
+1 0 0 0
+1 3 5 4
+0 6 3 2
+0 0 1 4
+enter the max resource process required 5x4 matrix
+0 0 1 2
+1 7 5 0
+2 3 5 6
+0 6 5 2
+0 6 5 6
+enter the  available resource1 5 2 0
+
+ need resources matrix are
+0       0       0       0
+0       7       5       0
+1       0       0       2
+0       0       2       0
+0       6       4       2
+
+ available resource after completion
+3       14      12      12
+ safe sequence are
+p0      p2      p3      p4      p1
+--------------------------------
+Process exited after 187.6 seconds with return value 0
+Press any key to continue . . .
+
+
